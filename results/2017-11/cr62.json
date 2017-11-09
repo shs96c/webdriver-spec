@@ -1,0 +1,3437 @@
+{
+    "results": [
+        {
+            "test": "/webdriver/tests/sessions/new_session/create_firstMatch.py",
+            "status": "OK",
+            "message": null,
+            "subtests": []
+        },
+        {
+            "test": "/webdriver/tests/state/is_element_selected.py",
+            "status": "OK",
+            "message": null,
+            "subtests": [
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "is_element_selected.py::test_no_browsing_context"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "is_element_selected.py::test_no_browsing_context"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "is_element_selected.py::test_handle_prompt_dismiss"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "is_element_selected.py::test_handle_prompt_accept"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "is_element_selected.py::test_handle_prompt_missing_value"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "is_element_selected.py::test_handle_prompt_missing_value"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "is_element_selected.py::test_element_stale"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "is_element_selected.py::test_element_stale"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "is_element_selected.py::test_element_checked"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "is_element_selected.py::test_element_checked"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "is_element_selected.py::test_checkbox_not_selected"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "is_element_selected.py::test_element_selected"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "is_element_selected.py::test_element_not_selected"
+                }
+            ]
+        },
+        {
+            "test": "/webdriver/tests/retrieval/find_element_from_element.py",
+            "status": "OK",
+            "message": null,
+            "subtests": [
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "find_element_from_element.py::test_invalid_using_argument[a]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "find_element_from_element.py::test_invalid_using_argument[a]"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "find_element_from_element.py::test_invalid_using_argument[True]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "find_element_from_element.py::test_invalid_using_argument[True]"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "find_element_from_element.py::test_invalid_using_argument[None]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "find_element_from_element.py::test_invalid_using_argument[None]"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "find_element_from_element.py::test_invalid_using_argument[1]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "find_element_from_element.py::test_invalid_using_argument[1]"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "find_element_from_element.py::test_invalid_using_argument[using4]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "find_element_from_element.py::test_invalid_using_argument[using4]"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "find_element_from_element.py::test_invalid_using_argument[using5]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "find_element_from_element.py::test_invalid_using_argument[using5]"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "find_element_from_element.py::test_invalid_selector_argument[None]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "find_element_from_element.py::test_invalid_selector_argument[None]"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "find_element_from_element.py::test_invalid_selector_argument[value1]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "find_element_from_element.py::test_invalid_selector_argument[value1]"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "find_element_from_element.py::test_invalid_selector_argument[value2]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "find_element_from_element.py::test_invalid_selector_argument[value2]"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "find_element_from_element.py::test_closed_context"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "find_element_from_element.py::test_closed_context"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "find_element_from_element.py::test_find_element[css selector-#linkText]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "find_element_from_element.py::test_find_element[css selector-#linkText]"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "find_element_from_element.py::test_find_element[link text-full link text]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "find_element_from_element.py::test_find_element[link text-full link text]"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "find_element_from_element.py::test_find_element[partial link text-link text]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "find_element_from_element.py::test_find_element[partial link text-link text]"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "find_element_from_element.py::test_find_element[tag name-a]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "find_element_from_element.py::test_find_element[tag name-a]"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "find_element_from_element.py::test_find_element[xpath-//a]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "find_element_from_element.py::test_find_element[xpath-//a]"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "find_element_from_element.py::test_no_element[css selector-#wontExist]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "find_element_from_element.py::test_no_element[css selector-#wontExist]"
+                }
+            ]
+        },
+        {
+            "test": "/webdriver/tests/contexts/maximize_window.py",
+            "status": "OK",
+            "message": null,
+            "subtests": [
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "maximize_window.py::test_no_browsing_context"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "maximize_window.py::test_no_browsing_context"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "maximize_window.py::test_handle_prompt_dismiss_and_notify"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "maximize_window.py::test_handle_prompt_accept_and_notify"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "maximize_window.py::test_handle_prompt_ignore"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "maximize_window.py::test_handle_prompt_accept"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "maximize_window.py::test_handle_prompt_missing_value"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "maximize_window.py::test_handle_prompt_missing_value"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "maximize_window.py::test_fully_exit_fullscreen"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "maximize_window.py::test_fully_exit_fullscreen"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "maximize_window.py::test_restore_the_window"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "maximize_window.py::test_restore_the_window"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "maximize_window.py::test_maximize"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "maximize_window.py::test_payload"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "maximize_window.py::test_maximize_twice_is_idempotent"
+                }
+            ]
+        },
+        {
+            "test": "/webdriver/tests/retrieval/find_element.py",
+            "status": "OK",
+            "message": null,
+            "subtests": [
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "find_element.py::test_invalid_using_argument[a]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "find_element.py::test_invalid_using_argument[a]"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "find_element.py::test_invalid_using_argument[True]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "find_element.py::test_invalid_using_argument[True]"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "find_element.py::test_invalid_using_argument[None]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "find_element.py::test_invalid_using_argument[None]"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "find_element.py::test_invalid_using_argument[1]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "find_element.py::test_invalid_using_argument[1]"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "find_element.py::test_invalid_using_argument[using4]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "find_element.py::test_invalid_using_argument[using4]"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "find_element.py::test_invalid_using_argument[using5]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "find_element.py::test_invalid_using_argument[using5]"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "find_element.py::test_invalid_selector_argument[None]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "find_element.py::test_invalid_selector_argument[None]"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "find_element.py::test_invalid_selector_argument[value1]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "find_element.py::test_invalid_selector_argument[value1]"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "find_element.py::test_invalid_selector_argument[value2]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "find_element.py::test_invalid_selector_argument[value2]"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "find_element.py::test_closed_context"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "find_element.py::test_closed_context"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "find_element.py::test_find_element[css selector-#linkText]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "find_element.py::test_find_element[css selector-#linkText]"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "find_element.py::test_find_element[link text-full link text]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "find_element.py::test_find_element[link text-full link text]"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "find_element.py::test_find_element[partial link text-link text]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "find_element.py::test_find_element[partial link text-link text]"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "find_element.py::test_find_element[tag name-a]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "find_element.py::test_find_element[tag name-a]"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "find_element.py::test_find_element[xpath-//a]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "find_element.py::test_find_element[xpath-//a]"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "find_element.py::test_no_element[css selector-#wontExist]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "find_element.py::test_no_element[css selector-#wontExist]"
+                }
+            ]
+        },
+        {
+            "test": "/webdriver/tests/user_prompts/get_alert_text.py",
+            "status": "OK",
+            "message": null,
+            "subtests": [
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "get_alert_text.py::test_no_browsing_context"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "get_alert_text.py::test_no_browsing_context"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "get_alert_text.py::test_no_user_prompt"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "get_alert_text.py::test_no_user_prompt"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "get_alert_text.py::test_get_alert_text"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "get_alert_text.py::test_get_confirm_text"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "get_alert_text.py::test_get_prompt_text"
+                }
+            ]
+        },
+        {
+            "test": "/webdriver/tests/interaction/send_keys_content_editable.py",
+            "status": "OK",
+            "message": null,
+            "subtests": []
+        },
+        {
+            "test": "/webdriver/tests/minimize_window.py",
+            "status": "OK",
+            "message": null,
+            "subtests": [
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "minimize_window.py::test_no_browsing_context"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "minimize_window.py::test_no_browsing_context"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "minimize_window.py::test_handle_prompt_dismiss_and_notify"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "minimize_window.py::test_handle_prompt_accept_and_notify"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "minimize_window.py::test_handle_prompt_ignore"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "minimize_window.py::test_handle_prompt_accept"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "minimize_window.py::test_handle_prompt_missing_value"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "minimize_window.py::test_handle_prompt_missing_value"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "minimize_window.py::test_fully_exit_fullscreen"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "minimize_window.py::test_fully_exit_fullscreen"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "minimize_window.py::test_minimize"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "minimize_window.py::test_minimize"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "minimize_window.py::test_payload"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "minimize_window.py::test_minimize_twice_is_idempotent"
+                }
+            ]
+        },
+        {
+            "test": "/webdriver/tests/state/get_element_attribute.py",
+            "status": "OK",
+            "message": null,
+            "subtests": [
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "get_element_attribute.py::test_no_browsing_context"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "get_element_attribute.py::test_no_browsing_context"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "get_element_attribute.py::test_handle_prompt_dismiss"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "get_element_attribute.py::test_handle_prompt_accept"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "get_element_attribute.py::test_handle_prompt_missing_value"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "get_element_attribute.py::test_handle_prompt_missing_value"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "get_element_attribute.py::test_element_not_found"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "get_element_attribute.py::test_element_not_found"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "get_element_attribute.py::test_element_stale"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "get_element_attribute.py::test_element_stale"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "get_element_attribute.py::test_normal"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "get_element_attribute.py::test_boolean_attribute[audio-attrs0]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "get_element_attribute.py::test_boolean_attribute[button-attrs1]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "get_element_attribute.py::test_boolean_attribute[details-attrs2]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "get_element_attribute.py::test_boolean_attribute[dialog-attrs3]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "get_element_attribute.py::test_boolean_attribute[fieldset-attrs4]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "get_element_attribute.py::test_boolean_attribute[form-attrs5]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "get_element_attribute.py::test_boolean_attribute[iframe-attrs6]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "get_element_attribute.py::test_boolean_attribute[img-attrs7]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "get_element_attribute.py::test_boolean_attribute[input-attrs8]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "get_element_attribute.py::test_boolean_attribute[menuitem-attrs9]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "get_element_attribute.py::test_boolean_attribute[object-attrs10]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "get_element_attribute.py::test_boolean_attribute[ol-attrs11]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "get_element_attribute.py::test_boolean_attribute[optgroup-attrs12]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "get_element_attribute.py::test_boolean_attribute[option-attrs13]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "get_element_attribute.py::test_boolean_attribute[script-attrs14]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "get_element_attribute.py::test_boolean_attribute[select-attrs15]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "get_element_attribute.py::test_boolean_attribute[textarea-attrs16]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "get_element_attribute.py::test_boolean_attribute[track-attrs17]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "get_element_attribute.py::test_boolean_attribute[video-attrs18]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "get_element_attribute.py::test_global_boolean_attributes"
+                }
+            ]
+        },
+        {
+            "test": "/webdriver/tests/get_window_rect.py",
+            "status": "ERROR",
+            "message": "Traceback (most recent call last):\n  File \"c:\\users\\johnjan\\documents\\github\\web-platform-tests\\tools\\wptrunner\\wptrunner\\executors\\base.py\", line 417, in _run\n    self.result = True, self.func(self.session, self.path, self.timeout)\n  File \"c:\\users\\johnjan\\documents\\github\\web-platform-tests\\tools\\wptrunner\\wptrunner\\executors\\base.py\", line 363, in do_wdspec\n    timeout=timeout)\n  File \"c:\\users\\johnjan\\documents\\github\\web-platform-tests\\tools\\wptrunner\\wptrunner\\executors\\pytestrunner\\runner.py\", line 62, in run\n    plugins=plugins)\n  File \"c:\\users\\johnjan\\documents\\github\\web-platform-tests\\tools\\pytest\\_pytest\\config.py\", line 49, in main\n    return config.hook.pytest_cmdline_main(config=config)\n  File \"c:\\users\\johnjan\\documents\\github\\web-platform-tests\\tools\\pytest\\_pytest\\vendored_packages\\pluggy.py\", line 724, in __call__\n    return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)\n  File \"c:\\users\\johnjan\\documents\\github\\web-platform-tests\\tools\\pytest\\_pytest\\vendored_packages\\pluggy.py\", line 338, in _hookexec\n    return self._inner_hookexec(hook, methods, kwargs)\n  File \"c:\\users\\johnjan\\documents\\github\\web-platform-tests\\tools\\pytest\\_pytest\\vendored_packages\\pluggy.py\", line 333, in <lambda>\n    _MultiCall(methods, kwargs, hook.spec_opts).execute()\n  File \"c:\\users\\johnjan\\documents\\github\\web-platform-tests\\tools\\pytest\\_pytest\\vendored_packages\\pluggy.py\", line 596, in execute\n    res = hook_impl.function(*args)\n  File \"c:\\users\\johnjan\\documents\\github\\web-platform-tests\\tools\\pytest\\_pytest\\main.py\", line 119, in pytest_cmdline_main\n    return wrap_session(config, _main)\n  File \"c:\\users\\johnjan\\documents\\github\\web-platform-tests\\tools\\pytest\\_pytest\\main.py\", line 114, in wrap_session\n    exitstatus=session.exitstatus)\n  File \"c:\\users\\johnjan\\documents\\github\\web-platform-tests\\tools\\pytest\\_pytest\\vendored_packages\\pluggy.py\", line 724, in __call__\n    return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)\n  File \"c:\\users\\johnjan\\documents\\github\\web-platform-tests\\tools\\pytest\\_pytest\\vendored_packages\\pluggy.py\", line 338, in _hookexec\n    return self._inner_hookexec(hook, methods, kwargs)\n  File \"c:\\users\\johnjan\\documents\\github\\web-platform-tests\\tools\\pytest\\_pytest\\vendored_packages\\pluggy.py\", line 333, in <lambda>\n    _MultiCall(methods, kwargs, hook.spec_opts).execute()\n  File \"c:\\users\\johnjan\\documents\\github\\web-platform-tests\\tools\\pytest\\_pytest\\vendored_packages\\pluggy.py\", line 595, in execute\n    return _wrapped_call(hook_impl.function(*args), self.execute)\n  File \"c:\\users\\johnjan\\documents\\github\\web-platform-tests\\tools\\pytest\\_pytest\\vendored_packages\\pluggy.py\", line 249, in _wrapped_call\n    wrap_controller.send(call_outcome)\n  File \"c:\\users\\johnjan\\documents\\github\\web-platform-tests\\tools\\pytest\\_pytest\\terminal.py\", line 363, in pytest_sessionfinish\n    outcome.get_result()\n  File \"c:\\users\\johnjan\\documents\\github\\web-platform-tests\\tools\\pytest\\_pytest\\vendored_packages\\pluggy.py\", line 279, in get_result\n    _reraise(*ex)  # noqa\n  File \"c:\\users\\johnjan\\documents\\github\\web-platform-tests\\tools\\pytest\\_pytest\\vendored_packages\\pluggy.py\", line 264, in __init__\n    self.result = func()\n  File \"c:\\users\\johnjan\\documents\\github\\web-platform-tests\\tools\\pytest\\_pytest\\vendored_packages\\pluggy.py\", line 596, in execute\n    res = hook_impl.function(*args)\n  File \"c:\\users\\johnjan\\documents\\github\\web-platform-tests\\tools\\pytest\\_pytest\\runner.py\", line 56, in pytest_sessionfinish\n    session._setupstate.teardown_all()\n  File \"c:\\users\\johnjan\\documents\\github\\web-platform-tests\\tools\\pytest\\_pytest\\runner.py\", line 380, in teardown_all\n    self._pop_and_teardown()\n  File \"c:\\users\\johnjan\\documents\\github\\web-platform-tests\\tools\\pytest\\_pytest\\runner.py\", line 353, in _pop_and_teardown\n    self._teardown_with_finalization(colitem)\n  File \"c:\\users\\johnjan\\documents\\github\\web-platform-tests\\tools\\pytest\\_pytest\\runner.py\", line 371, in _teardown_with_finalization\n    self._callfinalizers(colitem)\n  File \"c:\\users\\johnjan\\documents\\github\\web-platform-tests\\tools\\pytest\\_pytest\\runner.py\", line 368, in _callfinalizers\n    py.builtin._reraise(*exc)\n  File \"c:\\users\\johnjan\\documents\\github\\web-platform-tests\\tools\\pytest\\_pytest\\runner.py\", line 361, in _callfinalizers\n    fin()\n  File \"c:\\users\\johnjan\\documents\\github\\web-platform-tests\\tools\\pytest\\_pytest\\python.py\", line 2087, in finish\n    func()\n  File \"c:\\users\\johnjan\\documents\\github\\web-platform-tests\\tools\\pytest\\_pytest\\python.py\", line 2087, in finish\n    func()\n  File \"c:\\users\\johnjan\\documents\\github\\web-platform-tests\\webdriver\\tests\\support\\fixtures.py\", line 166, in <lambda>\n    request.addfinalizer(lambda: _switch_to_top_level_browsing_context(_current_session))\n  File \"c:\\users\\johnjan\\documents\\github\\web-platform-tests\\webdriver\\tests\\support\\fixtures.py\", line 85, in _switch_to_top_level_browsing_context\n    session.switch_frame(None)\n  File \"c:\\users\\johnjan\\documents\\github\\web-platform-tests\\tools\\webdriver\\webdriver\\client.py\", line 520, in switch_frame\n    return self.send_session_command(\"POST\", url, body)\n  File \"c:\\users\\johnjan\\documents\\github\\web-platform-tests\\tools\\webdriver\\webdriver\\client.py\", line 463, in send_session_command\n    raise error.SessionNotCreatedException()\nSessionNotCreatedException\n",
+            "subtests": []
+        },
+        {
+            "test": "/webdriver/tests/sessions/new_session/default_values.py",
+            "status": "OK",
+            "message": null,
+            "subtests": [
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "default_values.py::test_basic"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "default_values.py::test_repeat_new_session"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "default_values.py::test_no_capabilites"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "default_values.py::test_missing_first_match"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "default_values.py::test_missing_always_match"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "default_values.py::test_desired"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "default_values.py::test_ignore_non_spec_fields_in_capabilities"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "default_values.py::test_valid_but_unmatchable_key"
+                }
+            ]
+        },
+        {
+            "test": "/webdriver/tests/state/get_element_property.py",
+            "status": "OK",
+            "message": null,
+            "subtests": [
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "get_element_property.py::test_no_browsing_context"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "get_element_property.py::test_no_browsing_context"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "get_element_property.py::test_handle_prompt_dismiss"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "get_element_property.py::test_handle_prompt_accept"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "get_element_property.py::test_handle_prompt_missing_value"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "get_element_property.py::test_handle_prompt_missing_value"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "get_element_property.py::test_element_not_found"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "get_element_property.py::test_element_not_found"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "get_element_property.py::test_element_stale"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "get_element_property.py::test_element_stale"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "get_element_property.py::test_element_non_existent"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "get_element_property.py::test_element"
+                }
+            ]
+        },
+        {
+            "test": "/webdriver/tests/user_prompts/dismiss_alert.py",
+            "status": "OK",
+            "message": null,
+            "subtests": [
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "dismiss_alert.py::test_no_browsing_context"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "dismiss_alert.py::test_no_browsing_context"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "dismiss_alert.py::test_no_user_prompt"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "dismiss_alert.py::test_no_user_prompt"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "dismiss_alert.py::test_dismiss_alert"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "dismiss_alert.py::test_dismiss_alert"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "dismiss_alert.py::test_dismiss_confirm"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "dismiss_alert.py::test_dismiss_confirm"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "dismiss_alert.py::test_dismiss_prompt"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "dismiss_alert.py::test_dismiss_prompt"
+                }
+            ]
+        },
+        {
+            "test": "/webdriver/tests/fullscreen_window.py",
+            "status": "OK",
+            "message": null,
+            "subtests": [
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "fullscreen_window.py::test_no_browsing_context"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "fullscreen_window.py::test_no_browsing_context"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "fullscreen_window.py::test_handle_prompt_dismiss_and_notify"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "fullscreen_window.py::test_handle_prompt_accept_and_notify"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "fullscreen_window.py::test_handle_prompt_ignore"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "fullscreen_window.py::test_handle_prompt_accept"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "fullscreen_window.py::test_handle_prompt_missing_value"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "fullscreen_window.py::test_handle_prompt_missing_value"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "fullscreen_window.py::test_fullscreen"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "fullscreen_window.py::test_fullscreen"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "fullscreen_window.py::test_payload"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "fullscreen_window.py::test_payload"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "fullscreen_window.py::test_fullscreen_twice_is_idempotent"
+                }
+            ]
+        },
+        {
+            "test": "/webdriver/tests/actions/key.py",
+            "status": "OK",
+            "message": null,
+            "subtests": [
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "key.py::test_lone_keyup_sends_no_events"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "key.py::test_lone_keyup_sends_no_events"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "key.py::test_single_printable_key_sends_correct_events[0a-KeyA]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "key.py::test_single_printable_key_sends_correct_events[0a-KeyA]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "key.py::test_single_printable_key_sends_correct_events[1a-KeyA]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "key.py::test_single_printable_key_sends_correct_events[1a-KeyA]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "key.py::test_single_printable_key_sends_correct_events[2\"-Quote]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "key.py::test_single_printable_key_sends_correct_events[2\"-Quote]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "key.py::test_single_printable_key_sends_correct_events[3,-Comma]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "key.py::test_single_printable_key_sends_correct_events[3,-Comma]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "key.py::test_single_printable_key_sends_correct_events[4value4-]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "key.py::test_single_printable_key_sends_correct_events[4value4-]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "key.py::test_single_printable_key_sends_correct_events[5value5-]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "key.py::test_single_printable_key_sends_correct_events[5value5-]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "key.py::test_single_printable_key_sends_correct_events[6@-Digit2]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "key.py::test_single_printable_key_sends_correct_events[6@-Digit2]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "key.py::test_single_printable_key_sends_correct_events[7value7-]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "key.py::test_single_printable_key_sends_correct_events[7value7-]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "key.py::test_single_printable_key_sends_correct_events[8value8-]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "key.py::test_single_printable_key_sends_correct_events[8value8-]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "key.py::test_single_emoji_records_correct_key[value0]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "key.py::test_single_emoji_records_correct_key[value0]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "key.py::test_single_emoji_records_correct_key[value1]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "key.py::test_single_emoji_records_correct_key[value1]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "key.py::test_single_modifier_key_sends_correct_events[value0-ShiftRight-Shift]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "key.py::test_single_modifier_key_sends_correct_events[value0-ShiftRight-Shift]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "key.py::test_single_modifier_key_sends_correct_events[value1-OSRight-Meta]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "key.py::test_single_modifier_key_sends_correct_events[value1-OSRight-Meta]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "key.py::test_single_modifier_key_sends_correct_events[value2-ControlLeft-Control]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "key.py::test_single_modifier_key_sends_correct_events[value2-ControlLeft-Control]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "key.py::test_single_nonprintable_key_sends_events[value0-Escape-Escape]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "key.py::test_single_nonprintable_key_sends_events[value0-Escape-Escape]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "key.py::test_single_nonprintable_key_sends_events[value1-ArrowRight-ArrowRight]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "key.py::test_single_nonprintable_key_sends_events[value1-ArrowRight-ArrowRight]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "key.py::test_sequence_of_keydown_printable_keys_sends_events"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "key.py::test_sequence_of_keydown_printable_keys_sends_events"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "key.py::test_sequence_of_keydown_character_keys"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "key.py::test_sequence_of_keydown_character_keys"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "key.py::test_backspace_erases_keys"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "key.py::test_backspace_erases_keys"
+                }
+            ]
+        },
+        {
+            "test": "/webdriver/tests/state/text/get_text.py",
+            "status": "OK",
+            "message": null,
+            "subtests": [
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "get_text.py::test_getting_text_of_a_non_existant_element_is_an_error"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "get_text.py::test_getting_text_of_a_non_existant_element_is_an_error"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "get_text.py::test_read_element_text"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "get_text.py::test_read_element_text"
+                }
+            ]
+        },
+        {
+            "test": "/webdriver/tests/contexts/json_serialize_windowproxy.py",
+            "status": "OK",
+            "message": null,
+            "subtests": [
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "json_serialize_windowproxy.py::test_initial_window"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "json_serialize_windowproxy.py::test_initial_window"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "json_serialize_windowproxy.py::test_window_open"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "json_serialize_windowproxy.py::test_window_open"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "json_serialize_windowproxy.py::test_frame"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "json_serialize_windowproxy.py::test_frame"
+                }
+            ]
+        },
+        {
+            "test": "/webdriver/tests/actions/mouse.py",
+            "status": "OK",
+            "message": null,
+            "subtests": [
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "mouse.py::test_click_at_coordinates"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "mouse.py::test_click_at_coordinates"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "mouse.py::test_context_menu_at_coordinates"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "mouse.py::test_context_menu_at_coordinates"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "mouse.py::test_click_element_center"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "mouse.py::test_click_element_center"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "mouse.py::test_click_navigation"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "mouse.py::test_click_navigation"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "mouse.py::test_drag_and_drop[20-0-0]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "mouse.py::test_drag_and_drop[20-0-0]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "mouse.py::test_drag_and_drop[20-0-300]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "mouse.py::test_drag_and_drop[20-0-300]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "mouse.py::test_drag_and_drop[20-0-800]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "mouse.py::test_drag_and_drop[20-0-800]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "mouse.py::test_drag_and_drop[0-15-0]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "mouse.py::test_drag_and_drop[0-15-0]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "mouse.py::test_drag_and_drop[0-15-300]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "mouse.py::test_drag_and_drop[0-15-300]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "mouse.py::test_drag_and_drop[0-15-800]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "mouse.py::test_drag_and_drop[0-15-800]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "mouse.py::test_drag_and_drop[10-15-0]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "mouse.py::test_drag_and_drop[10-15-0]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "mouse.py::test_drag_and_drop[10-15-300]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "mouse.py::test_drag_and_drop[10-15-300]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "mouse.py::test_drag_and_drop[10-15-800]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "mouse.py::test_drag_and_drop[10-15-800]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "mouse.py::test_drag_and_drop[-20-0-0]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "mouse.py::test_drag_and_drop[-20-0-0]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "mouse.py::test_drag_and_drop[-20-0-300]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "mouse.py::test_drag_and_drop[-20-0-300]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "mouse.py::test_drag_and_drop[-20-0-800]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "mouse.py::test_drag_and_drop[-20-0-800]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "mouse.py::test_drag_and_drop[10--15-0]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "mouse.py::test_drag_and_drop[10--15-0]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "mouse.py::test_drag_and_drop[10--15-300]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "mouse.py::test_drag_and_drop[10--15-300]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "mouse.py::test_drag_and_drop[10--15-800]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "mouse.py::test_drag_and_drop[10--15-800]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "mouse.py::test_drag_and_drop[-10--15-0]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "mouse.py::test_drag_and_drop[-10--15-0]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "mouse.py::test_drag_and_drop[-10--15-300]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "mouse.py::test_drag_and_drop[-10--15-300]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "mouse.py::test_drag_and_drop[-10--15-800]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "mouse.py::test_drag_and_drop[-10--15-800]"
+                }
+            ]
+        },
+        {
+            "test": "/webdriver/tests/user_prompts/accept_alert.py",
+            "status": "OK",
+            "message": null,
+            "subtests": [
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "accept_alert.py::test_no_browsing_context"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "accept_alert.py::test_no_browsing_context"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "accept_alert.py::test_no_user_prompt"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "accept_alert.py::test_no_user_prompt"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "accept_alert.py::test_accept_alert"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "accept_alert.py::test_accept_alert"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "accept_alert.py::test_accept_confirm"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "accept_alert.py::test_accept_confirm"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "accept_alert.py::test_accept_prompt"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "accept_alert.py::test_accept_prompt"
+                }
+            ]
+        },
+        {
+            "test": "/webdriver/tests/switch_to_parent_frame.py",
+            "status": "OK",
+            "message": null,
+            "subtests": [
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "switch_to_parent_frame.py::test_stale_element_from_iframe"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "switch_to_parent_frame.py::test_stale_element_from_iframe"
+                }
+            ]
+        },
+        {
+            "test": "/webdriver/tests/state/get_element_tag_name.py",
+            "status": "OK",
+            "message": null,
+            "subtests": [
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "get_element_tag_name.py::test_no_browsing_context"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "get_element_tag_name.py::test_no_browsing_context"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "get_element_tag_name.py::test_handle_prompt_dismiss"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "get_element_tag_name.py::test_handle_prompt_accept"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "get_element_tag_name.py::test_handle_prompt_missing_value"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "get_element_tag_name.py::test_handle_prompt_missing_value"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "get_element_tag_name.py::test_element_not_found"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "get_element_tag_name.py::test_element_not_found"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "get_element_tag_name.py::test_element_stale"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "get_element_tag_name.py::test_element_stale"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "get_element_tag_name.py::test_get_element_tag_name"
+                }
+            ]
+        },
+        {
+            "test": "/webdriver/tests/actions/sequence.py",
+            "status": "OK",
+            "message": null,
+            "subtests": [
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "sequence.py::test_no_actions_send_no_events"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "sequence.py::test_no_actions_send_no_events"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "sequence.py::test_release_char_sequence_sends_keyup_events_in_reverse"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "sequence.py::test_release_char_sequence_sends_keyup_events_in_reverse"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "sequence.py::test_release_no_actions_sends_no_events"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "sequence.py::test_release_no_actions_sends_no_events"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "sequence.py::test_control_click[modifier0-ctrlKey]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "sequence.py::test_control_click[modifier0-ctrlKey]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "sequence.py::test_control_click[modifier1-altKey]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "sequence.py::test_control_click[modifier1-altKey]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "sequence.py::test_control_click[modifier2-metaKey]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "sequence.py::test_control_click[modifier2-metaKey]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "sequence.py::test_control_click[modifier3-shiftKey]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "sequence.py::test_control_click[modifier3-shiftKey]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "sequence.py::test_control_click[modifier4-ctrlKey]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "sequence.py::test_control_click[modifier4-ctrlKey]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "sequence.py::test_control_click[modifier5-altKey]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "sequence.py::test_control_click[modifier5-altKey]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "sequence.py::test_control_click[modifier6-metaKey]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "sequence.py::test_control_click[modifier6-metaKey]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "sequence.py::test_control_click[modifier7-shiftKey]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "sequence.py::test_control_click[modifier7-shiftKey]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "sequence.py::test_release_control_click"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "sequence.py::test_release_control_click"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "sequence.py::test_many_modifiers_click"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "sequence.py::test_many_modifiers_click"
+                }
+            ]
+        },
+        {
+            "test": "/webdriver/tests/cookies/add_cookie.py",
+            "status": "OK",
+            "message": null,
+            "subtests": [
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "add_cookie.py::test_add_domain_cookie"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "add_cookie.py::test_add_domain_cookie"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "add_cookie.py::test_add_cookie_for_ip"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "add_cookie.py::test_add_cookie_for_ip"
+                }
+            ]
+        },
+        {
+            "test": "/webdriver/tests/set_window_rect.py",
+            "status": "OK",
+            "message": null,
+            "subtests": [
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "set_window_rect.py::test_current_top_level_browsing_context_no_longer_open"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "set_window_rect.py::test_current_top_level_browsing_context_no_longer_open"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "set_window_rect.py::test_handle_prompt_dismiss"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "set_window_rect.py::test_handle_prompt_accept"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "set_window_rect.py::test_handle_prompt_dismiss_and_notify"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "set_window_rect.py::test_handle_prompt_accept_and_notify"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "set_window_rect.py::test_handle_prompt_ignore"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "set_window_rect.py::test_handle_prompt_missing_value"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "set_window_rect.py::test_handle_prompt_missing_value"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "set_window_rect.py::test_invalid_types[rect0]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "set_window_rect.py::test_invalid_types[rect0]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "set_window_rect.py::test_invalid_types[rect1]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "set_window_rect.py::test_invalid_types[rect1]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "set_window_rect.py::test_invalid_types[rect2]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "set_window_rect.py::test_invalid_types[rect3]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "set_window_rect.py::test_invalid_types[rect4]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "set_window_rect.py::test_invalid_types[rect5]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "set_window_rect.py::test_invalid_types[rect6]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "set_window_rect.py::test_invalid_types[rect7]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "set_window_rect.py::test_invalid_types[rect8]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "set_window_rect.py::test_invalid_types[rect9]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "set_window_rect.py::test_invalid_types[rect10]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "set_window_rect.py::test_invalid_types[rect11]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "set_window_rect.py::test_invalid_types[rect12]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "set_window_rect.py::test_invalid_types[rect13]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "set_window_rect.py::test_invalid_types[rect14]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "set_window_rect.py::test_invalid_types[rect15]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "set_window_rect.py::test_invalid_types[rect16]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "set_window_rect.py::test_invalid_types[rect17]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "set_window_rect.py::test_invalid_types[rect18]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "set_window_rect.py::test_invalid_types[rect19]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "set_window_rect.py::test_invalid_types[rect20]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "set_window_rect.py::test_invalid_types[rect21]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "set_window_rect.py::test_invalid_types[rect22]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "set_window_rect.py::test_invalid_types[rect23]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "set_window_rect.py::test_invalid_types[rect24]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "set_window_rect.py::test_invalid_types[rect25]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "set_window_rect.py::test_invalid_types[rect26]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "set_window_rect.py::test_invalid_types[rect27]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "set_window_rect.py::test_out_of_bounds[rect0]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "set_window_rect.py::test_out_of_bounds[rect1]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "set_window_rect.py::test_out_of_bounds[rect2]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "set_window_rect.py::test_width_height_floats"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "set_window_rect.py::test_x_y_floats"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "set_window_rect.py::test_no_change[rect0]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "set_window_rect.py::test_no_change[rect1]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "set_window_rect.py::test_no_change[rect2]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "set_window_rect.py::test_no_change[rect3]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "set_window_rect.py::test_no_change[rect4]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "set_window_rect.py::test_no_change[rect5]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "set_window_rect.py::test_no_change[rect6]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "set_window_rect.py::test_no_change[rect7]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "set_window_rect.py::test_no_change[rect8]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "set_window_rect.py::test_no_change[rect9]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "set_window_rect.py::test_no_change[rect10]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "set_window_rect.py::test_no_change[rect11]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "set_window_rect.py::test_no_change[rect12]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "set_window_rect.py::test_no_change[rect13]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "set_window_rect.py::test_no_change[rect14]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "set_window_rect.py::test_no_change[rect15]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "set_window_rect.py::test_no_change[rect16]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "set_window_rect.py::test_no_change[rect17]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "set_window_rect.py::test_no_change[rect18]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "set_window_rect.py::test_no_change[rect19]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "set_window_rect.py::test_fully_exit_fullscreen"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "set_window_rect.py::test_restore_from_minimized"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "set_window_rect.py::test_restore_from_maximized"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "set_window_rect.py::test_height_width"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "set_window_rect.py::test_height_width_larger_than_max"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "set_window_rect.py::test_height_width_as_current"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "set_window_rect.py::test_x_y"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "set_window_rect.py::test_negative_x_y"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "set_window_rect.py::test_move_to_same_position"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "set_window_rect.py::test_move_to_same_x"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "set_window_rect.py::test_move_to_same_y"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "set_window_rect.py::test_resize_to_same_size"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "set_window_rect.py::test_resize_to_same_width"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "set_window_rect.py::test_resize_to_same_height"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "set_window_rect.py::test_payload"
+                }
+            ]
+        },
+        {
+            "test": "/webdriver/interface/interface.html",
+            "status": "OK",
+            "message": null,
+            "subtests": [
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "Test that the navigator.webdriver descriptor has expected properties or doesn't exist at all"
+                }
+            ]
+        },
+        {
+            "test": "/webdriver/tests/contexts/resizing_and_positioning.py",
+            "status": "OK",
+            "message": null,
+            "subtests": [
+                {
+                    "status": "ERROR",
+                    "message": "In-test skip decorators are disallowed, please use WPT metadata to ignore tests.",
+                    "name": "resizing_and_positioning.py::test_window_resize"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "resizing_and_positioning.py::test_window_resize"
+                }
+            ]
+        },
+        {
+            "test": "/webdriver/tests/sessions/get_timeouts.py",
+            "status": "OK",
+            "message": null,
+            "subtests": [
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "get_timeouts.py::test_get_timeouts"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "get_timeouts.py::test_get_timeouts"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "get_timeouts.py::test_get_default_timeouts"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "get_timeouts.py::test_get_default_timeouts"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "get_timeouts.py::test_get_new_timeouts"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "get_timeouts.py::test_get_new_timeouts"
+                }
+            ]
+        },
+        {
+            "test": "/webdriver/tests/element_click/select.py",
+            "status": "OK",
+            "message": null,
+            "subtests": [
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "select.py::test_click_option"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "select.py::test_click_option"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "select.py::test_click_multiple_option"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "select.py::test_click_multiple_option"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "select.py::test_click_preselected_option"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "select.py::test_click_preselected_option"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "select.py::test_click_preselected_multiple_option"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "select.py::test_click_preselected_multiple_option"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "select.py::test_click_deselects_others"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "select.py::test_click_deselects_others"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "select.py::test_click_multiple_does_not_deselect_others"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "select.py::test_click_multiple_does_not_deselect_others"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "select.py::test_click_selected_option"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "select.py::test_click_selected_option"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "select.py::test_click_selected_multiple_option"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "select.py::test_click_selected_multiple_option"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "select.py::test_out_of_view_dropdown"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "select.py::test_out_of_view_dropdown"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "select.py::test_out_of_view_multiple"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "select.py::test_out_of_view_multiple"
+                }
+            ]
+        },
+        {
+            "test": "/webdriver/tests/retrieval/find_elements.py",
+            "status": "OK",
+            "message": null,
+            "subtests": [
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "find_elements.py::test_invalid_using_argument[a]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "find_elements.py::test_invalid_using_argument[a]"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "find_elements.py::test_invalid_using_argument[True]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "find_elements.py::test_invalid_using_argument[True]"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "find_elements.py::test_invalid_using_argument[None]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "find_elements.py::test_invalid_using_argument[None]"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "find_elements.py::test_invalid_using_argument[1]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "find_elements.py::test_invalid_using_argument[1]"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "find_elements.py::test_invalid_using_argument[using4]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "find_elements.py::test_invalid_using_argument[using4]"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "find_elements.py::test_invalid_using_argument[using5]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "find_elements.py::test_invalid_using_argument[using5]"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "find_elements.py::test_invalid_selector_argument[None]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "find_elements.py::test_invalid_selector_argument[None]"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "find_elements.py::test_invalid_selector_argument[value1]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "find_elements.py::test_invalid_selector_argument[value1]"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "find_elements.py::test_invalid_selector_argument[value2]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "find_elements.py::test_invalid_selector_argument[value2]"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "find_elements.py::test_closed_context"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "find_elements.py::test_closed_context"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "find_elements.py::test_find_elements[css selector-#linkText]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "find_elements.py::test_find_elements[css selector-#linkText]"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "find_elements.py::test_find_elements[link text-full link text]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "find_elements.py::test_find_elements[link text-full link text]"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "find_elements.py::test_find_elements[partial link text-link text]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "find_elements.py::test_find_elements[partial link text-link text]"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "find_elements.py::test_find_elements[tag name-a]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "find_elements.py::test_find_elements[tag name-a]"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "find_elements.py::test_find_elements[xpath-//a]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "find_elements.py::test_find_elements[xpath-//a]"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "find_elements.py::test_no_element[css selector-#wontExist]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "find_elements.py::test_no_element[css selector-#wontExist]"
+                }
+            ]
+        },
+        {
+            "test": "/webdriver/tests/status.py",
+            "status": "OK",
+            "message": null,
+            "subtests": [
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "status.py::test_get_status_no_session"
+                }
+            ]
+        },
+        {
+            "test": "/webdriver/tests/retrieval/find_element_from_elements.py",
+            "status": "OK",
+            "message": null,
+            "subtests": [
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "find_element_from_elements.py::test_invalid_using_argument[a]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "find_element_from_elements.py::test_invalid_using_argument[a]"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "find_element_from_elements.py::test_invalid_using_argument[True]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "find_element_from_elements.py::test_invalid_using_argument[True]"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "find_element_from_elements.py::test_invalid_using_argument[None]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "find_element_from_elements.py::test_invalid_using_argument[None]"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "find_element_from_elements.py::test_invalid_using_argument[1]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "find_element_from_elements.py::test_invalid_using_argument[1]"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "find_element_from_elements.py::test_invalid_using_argument[using4]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "find_element_from_elements.py::test_invalid_using_argument[using4]"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "find_element_from_elements.py::test_invalid_using_argument[using5]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "find_element_from_elements.py::test_invalid_using_argument[using5]"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "find_element_from_elements.py::test_invalid_selector_argument[None]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "find_element_from_elements.py::test_invalid_selector_argument[None]"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "find_element_from_elements.py::test_invalid_selector_argument[value1]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "find_element_from_elements.py::test_invalid_selector_argument[value1]"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "find_element_from_elements.py::test_invalid_selector_argument[value2]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "find_element_from_elements.py::test_invalid_selector_argument[value2]"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "find_element_from_elements.py::test_closed_context"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "find_element_from_elements.py::test_closed_context"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "find_element_from_elements.py::test_find_elements[css selector-#linkText]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "find_element_from_elements.py::test_find_elements[css selector-#linkText]"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "find_element_from_elements.py::test_find_elements[link text-full link text]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "find_element_from_elements.py::test_find_elements[link text-full link text]"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "find_element_from_elements.py::test_find_elements[partial link text-link text]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "find_element_from_elements.py::test_find_elements[partial link text-link text]"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "find_element_from_elements.py::test_find_elements[tag name-a]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "find_element_from_elements.py::test_find_elements[tag name-a]"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "find_element_from_elements.py::test_find_elements[xpath-//a]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "find_element_from_elements.py::test_find_elements[xpath-//a]"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "find_element_from_elements.py::test_no_element[css selector-#wontExist]"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "find_element_from_elements.py::test_no_element[css selector-#wontExist]"
+                }
+            ]
+        },
+        {
+            "test": "/webdriver/tests/sessions/new_session/response.py",
+            "status": "OK",
+            "message": null,
+            "subtests": [
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "response.py::test_resp_sessionid"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "response.py::test_resp_capabilites"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "response.py::test_resp_data"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "response.py::test_timeouts"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "response.py::test_pageLoadStrategy"
+                }
+            ]
+        },
+        {
+            "test": "/webdriver/tests/navigation/get_title.py",
+            "status": "OK",
+            "message": null,
+            "subtests": [
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "get_title.py::test_title_from_closed_context"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "get_title.py::test_title_from_closed_context"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "get_title.py::test_title_handle_prompt_dismiss"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "get_title.py::test_title_handle_prompt_accept"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "get_title.py::test_title_handle_prompt_missing_value"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "get_title.py::test_title_handle_prompt_missing_value"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "get_title.py::test_title_from_top_context"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "get_title.py::test_title_from_top_context"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "get_title.py::test_title_with_duplicate_element"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "get_title.py::test_title_with_duplicate_element"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "get_title.py::test_title_without_element"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "get_title.py::test_title_after_modification"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "get_title.py::test_title_strip_and_collapse"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "get_title.py::test_title_from_frame"
+                }
+            ]
+        },
+        {
+            "test": "/webdriver/tests/sessions/new_session/invalid_capabilities.py",
+            "status": "OK",
+            "message": null,
+            "subtests": [
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "invalid_capabilities.py::test_invalid_capabilites[None]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "invalid_capabilities.py::test_invalid_capabilites[1]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "invalid_capabilities.py::test_invalid_capabilites[{}]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "invalid_capabilities.py::test_invalid_capabilites[value3]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "invalid_capabilities.py::test_invalid_always_match[None]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "invalid_capabilities.py::test_invalid_always_match[1]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "invalid_capabilities.py::test_invalid_always_match[{}]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "invalid_capabilities.py::test_invalid_always_match[value3]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "invalid_capabilities.py::test_invalid_first_match[None]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "invalid_capabilities.py::test_invalid_first_match[1]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "invalid_capabilities.py::test_invalid_first_match[[]]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "invalid_capabilities.py::test_invalid_first_match[value3]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "invalid_capabilities.py::test_invalid[firefox-body0]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "invalid_capabilities.py::test_invalid[firefox-body1]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "invalid_capabilities.py::test_invalid[firefox_binary-body0]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "invalid_capabilities.py::test_invalid[firefox_binary-body1]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "invalid_capabilities.py::test_invalid[firefoxOptions-body0]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "invalid_capabilities.py::test_invalid[firefoxOptions-body1]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "invalid_capabilities.py::test_invalid[chromeOptions-body0]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "invalid_capabilities.py::test_invalid[chromeOptions-body1]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "invalid_capabilities.py::test_invalid[automaticInspection-body0]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "invalid_capabilities.py::test_invalid[automaticInspection-body1]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "invalid_capabilities.py::test_invalid[automaticProfiling-body0]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "invalid_capabilities.py::test_invalid[automaticProfiling-body1]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "invalid_capabilities.py::test_invalid[platform-body0]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "invalid_capabilities.py::test_invalid[platform-body1]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "invalid_capabilities.py::test_invalid[version-body0]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "invalid_capabilities.py::test_invalid[version-body1]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "invalid_capabilities.py::test_invalid[browser-body0]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "invalid_capabilities.py::test_invalid[browser-body1]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "invalid_capabilities.py::test_invalid[platformVersion-body0]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "invalid_capabilities.py::test_invalid[platformVersion-body1]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "invalid_capabilities.py::test_invalid[javascriptEnabled-body0]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "invalid_capabilities.py::test_invalid[javascriptEnabled-body1]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "invalid_capabilities.py::test_invalid[nativeEvents-body0]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "invalid_capabilities.py::test_invalid[nativeEvents-body1]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "invalid_capabilities.py::test_invalid[seleniumProtocol-body0]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "invalid_capabilities.py::test_invalid[seleniumProtocol-body1]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "invalid_capabilities.py::test_invalid[profile-body0]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "invalid_capabilities.py::test_invalid[profile-body1]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "invalid_capabilities.py::test_invalid[trustAllSSLCertificates-body0]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "invalid_capabilities.py::test_invalid[trustAllSSLCertificates-body1]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "invalid_capabilities.py::test_invalid[initialBrowserUrl-body0]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "invalid_capabilities.py::test_invalid[initialBrowserUrl-body1]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "invalid_capabilities.py::test_invalid[requireWindowFocus-body0]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "invalid_capabilities.py::test_invalid[requireWindowFocus-body1]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "invalid_capabilities.py::test_invalid[logFile-body0]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "invalid_capabilities.py::test_invalid[logFile-body1]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "invalid_capabilities.py::test_invalid[logLevel-body0]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "invalid_capabilities.py::test_invalid[logLevel-body1]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "invalid_capabilities.py::test_invalid[safari.options-body0]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "invalid_capabilities.py::test_invalid[safari.options-body1]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "invalid_capabilities.py::test_invalid[ensureCleanSession-body0]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "invalid_capabilities.py::test_invalid[ensureCleanSession-body1]"
+                }
+            ]
+        },
+        {
+            "test": "/webdriver/tests/interface.html",
+            "status": "OK",
+            "message": null,
+            "subtests": [
+                {
+                    "status": "FAIL",
+                    "message": "assert_true: The prototype object must have a property \"webdriver\" expected true got false",
+                    "name": "Navigator interface: attribute webdriver"
+                },
+                {
+                    "status": "FAIL",
+                    "message": "assert_inherits: property \"webdriver\" not found in prototype chain",
+                    "name": "Navigator interface: navigator must inherit property \"webdriver\" with the proper type"
+                }
+            ]
+        },
+        {
+            "test": "/webdriver/tests/cookies/get_named_cookie.py",
+            "status": "OK",
+            "message": null,
+            "subtests": [
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "get_named_cookie.py::test_get_named_cookie"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "get_named_cookie.py::test_get_named_cookie"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "get_named_cookie.py::test_duplicated_cookie"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "get_named_cookie.py::test_duplicated_cookie"
+                }
+            ]
+        },
+        {
+            "test": "/webdriver/tests/actions/special_keys.py",
+            "status": "TIMEOUT",
+            "message": null,
+            "subtests": []
+        },
+        {
+            "test": "/webdriver/tests/cookies/delete_cookie.py",
+            "status": "ERROR",
+            "message": "Traceback (most recent call last):\n  File \"c:\\users\\johnjan\\documents\\github\\web-platform-tests\\tools\\wptrunner\\wptrunner\\executors\\base.py\", line 417, in _run\n    self.result = True, self.func(self.session, self.path, self.timeout)\n  File \"c:\\users\\johnjan\\documents\\github\\web-platform-tests\\tools\\wptrunner\\wptrunner\\executors\\base.py\", line 363, in do_wdspec\n    timeout=timeout)\n  File \"c:\\users\\johnjan\\documents\\github\\web-platform-tests\\tools\\wptrunner\\wptrunner\\executors\\pytestrunner\\runner.py\", line 62, in run\n    plugins=plugins)\n  File \"c:\\users\\johnjan\\documents\\github\\web-platform-tests\\tools\\pytest\\_pytest\\config.py\", line 49, in main\n    return config.hook.pytest_cmdline_main(config=config)\n  File \"c:\\users\\johnjan\\documents\\github\\web-platform-tests\\tools\\pytest\\_pytest\\vendored_packages\\pluggy.py\", line 724, in __call__\n    return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)\n  File \"c:\\users\\johnjan\\documents\\github\\web-platform-tests\\tools\\pytest\\_pytest\\vendored_packages\\pluggy.py\", line 338, in _hookexec\n    return self._inner_hookexec(hook, methods, kwargs)\n  File \"c:\\users\\johnjan\\documents\\github\\web-platform-tests\\tools\\pytest\\_pytest\\vendored_packages\\pluggy.py\", line 333, in <lambda>\n    _MultiCall(methods, kwargs, hook.spec_opts).execute()\n  File \"c:\\users\\johnjan\\documents\\github\\web-platform-tests\\tools\\pytest\\_pytest\\vendored_packages\\pluggy.py\", line 596, in execute\n    res = hook_impl.function(*args)\n  File \"c:\\users\\johnjan\\documents\\github\\web-platform-tests\\tools\\pytest\\_pytest\\main.py\", line 119, in pytest_cmdline_main\n    return wrap_session(config, _main)\n  File \"c:\\users\\johnjan\\documents\\github\\web-platform-tests\\tools\\pytest\\_pytest\\main.py\", line 114, in wrap_session\n    exitstatus=session.exitstatus)\n  File \"c:\\users\\johnjan\\documents\\github\\web-platform-tests\\tools\\pytest\\_pytest\\vendored_packages\\pluggy.py\", line 724, in __call__\n    return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)\n  File \"c:\\users\\johnjan\\documents\\github\\web-platform-tests\\tools\\pytest\\_pytest\\vendored_packages\\pluggy.py\", line 338, in _hookexec\n    return self._inner_hookexec(hook, methods, kwargs)\n  File \"c:\\users\\johnjan\\documents\\github\\web-platform-tests\\tools\\pytest\\_pytest\\vendored_packages\\pluggy.py\", line 333, in <lambda>\n    _MultiCall(methods, kwargs, hook.spec_opts).execute()\n  File \"c:\\users\\johnjan\\documents\\github\\web-platform-tests\\tools\\pytest\\_pytest\\vendored_packages\\pluggy.py\", line 595, in execute\n    return _wrapped_call(hook_impl.function(*args), self.execute)\n  File \"c:\\users\\johnjan\\documents\\github\\web-platform-tests\\tools\\pytest\\_pytest\\vendored_packages\\pluggy.py\", line 249, in _wrapped_call\n    wrap_controller.send(call_outcome)\n  File \"c:\\users\\johnjan\\documents\\github\\web-platform-tests\\tools\\pytest\\_pytest\\terminal.py\", line 363, in pytest_sessionfinish\n    outcome.get_result()\n  File \"c:\\users\\johnjan\\documents\\github\\web-platform-tests\\tools\\pytest\\_pytest\\vendored_packages\\pluggy.py\", line 279, in get_result\n    _reraise(*ex)  # noqa\n  File \"c:\\users\\johnjan\\documents\\github\\web-platform-tests\\tools\\pytest\\_pytest\\vendored_packages\\pluggy.py\", line 264, in __init__\n    self.result = func()\n  File \"c:\\users\\johnjan\\documents\\github\\web-platform-tests\\tools\\pytest\\_pytest\\vendored_packages\\pluggy.py\", line 596, in execute\n    res = hook_impl.function(*args)\n  File \"c:\\users\\johnjan\\documents\\github\\web-platform-tests\\tools\\pytest\\_pytest\\runner.py\", line 56, in pytest_sessionfinish\n    session._setupstate.teardown_all()\n  File \"c:\\users\\johnjan\\documents\\github\\web-platform-tests\\tools\\pytest\\_pytest\\runner.py\", line 380, in teardown_all\n    self._pop_and_teardown()\n  File \"c:\\users\\johnjan\\documents\\github\\web-platform-tests\\tools\\pytest\\_pytest\\runner.py\", line 353, in _pop_and_teardown\n    self._teardown_with_finalization(colitem)\n  File \"c:\\users\\johnjan\\documents\\github\\web-platform-tests\\tools\\pytest\\_pytest\\runner.py\", line 371, in _teardown_with_finalization\n    self._callfinalizers(colitem)\n  File \"c:\\users\\johnjan\\documents\\github\\web-platform-tests\\tools\\pytest\\_pytest\\runner.py\", line 368, in _callfinalizers\n    py.builtin._reraise(*exc)\n  File \"c:\\users\\johnjan\\documents\\github\\web-platform-tests\\tools\\pytest\\_pytest\\runner.py\", line 361, in _callfinalizers\n    fin()\n  File \"c:\\users\\johnjan\\documents\\github\\web-platform-tests\\tools\\pytest\\_pytest\\python.py\", line 2087, in finish\n    func()\n  File \"c:\\users\\johnjan\\documents\\github\\web-platform-tests\\tools\\pytest\\_pytest\\python.py\", line 2087, in finish\n    func()\n  File \"c:\\users\\johnjan\\documents\\github\\web-platform-tests\\webdriver\\tests\\support\\fixtures.py\", line 166, in <lambda>\n    request.addfinalizer(lambda: _switch_to_top_level_browsing_context(_current_session))\n  File \"c:\\users\\johnjan\\documents\\github\\web-platform-tests\\webdriver\\tests\\support\\fixtures.py\", line 85, in _switch_to_top_level_browsing_context\n    session.switch_frame(None)\n  File \"c:\\users\\johnjan\\documents\\github\\web-platform-tests\\tools\\webdriver\\webdriver\\client.py\", line 520, in switch_frame\n    return self.send_session_command(\"POST\", url, body)\n  File \"c:\\users\\johnjan\\documents\\github\\web-platform-tests\\tools\\webdriver\\webdriver\\client.py\", line 463, in send_session_command\n    raise error.SessionNotCreatedException()\nSessionNotCreatedException\n",
+            "subtests": []
+        },
+        {
+            "test": "/webdriver/tests/sessions/new_session/create_alwaysMatch.py",
+            "status": "OK",
+            "message": null,
+            "subtests": []
+        },
+        {
+            "test": "/webdriver/tests/element_retrieval/get_active_element.py",
+            "status": "OK",
+            "message": null,
+            "subtests": [
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "get_active_element.py::test_closed_context"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "get_active_element.py::test_closed_context"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "get_active_element.py::test_handle_prompt_dismiss"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "get_active_element.py::test_handle_prompt_accept"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "get_active_element.py::test_handle_prompt_missing_value"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "get_active_element.py::test_handle_prompt_missing_value"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "get_active_element.py::test_success_document"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "get_active_element.py::test_success_document"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "get_active_element.py::test_sucess_input"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "get_active_element.py::test_sucess_input"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "get_active_element.py::test_sucess_input_non_interactable"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "get_active_element.py::test_success_explicit_focus"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "get_active_element.py::test_success_iframe_content"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "setup error",
+                    "name": "get_active_element.py::test_sucess_without_body"
+                }
+            ]
+        },
+        {
+            "test": "/webdriver/tests/sessions/new_session/merge.py",
+            "status": "OK",
+            "message": null,
+            "subtests": [
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "merge.py::test_platform_name[body0]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "merge.py::test_platform_name[body1]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "merge.py::test_merge_invalid[acceptInsecureCerts-value0]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "merge.py::test_merge_invalid[unhandledPromptBehavior-value1]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "merge.py::test_merge_invalid[unhandledPromptBehavior-value2]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "merge.py::test_merge_invalid[timeouts-value3]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "merge.py::test_merge_invalid[timeouts-value4]"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "merge.py::test_merge_platformName"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "merge.py::test_merge_browserName"
+                }
+            ]
+        },
+        {
+            "test": "/webdriver/tests/navigation/current_url.py",
+            "status": "OK",
+            "message": null,
+            "subtests": [
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "current_url.py::test_get_current_url_no_browsing_context"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "current_url.py::test_get_current_url_no_browsing_context"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "current_url.py::test_get_current_url_alert_prompt"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "current_url.py::test_get_current_url_alert_prompt"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "current_url.py::test_get_current_url_matches_location"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "current_url.py::test_get_current_url_matches_location"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "current_url.py::test_get_current_url_payload"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "current_url.py::test_get_current_url_payload"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "current_url.py::test_get_current_url_special_pages"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "current_url.py::test_get_current_url_special_pages"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "current_url.py::test_get_current_url_file_protocol"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "current_url.py::test_get_current_url_file_protocol"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "current_url.py::test_set_malformed_url"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "current_url.py::test_set_malformed_url"
+                },
+                {
+                    "status": "PASS",
+                    "message": null,
+                    "name": "current_url.py::test_get_current_url_after_modified_location"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "current_url.py::test_get_current_url_after_modified_location"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "current_url.py::test_get_current_url_nested_browsing_context"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "current_url.py::test_get_current_url_nested_browsing_context"
+                },
+                {
+                    "status": "FAIL",
+                    "message": null,
+                    "name": "current_url.py::test_get_current_url_nested_browsing_contexts"
+                },
+                {
+                    "status": "ERROR",
+                    "message": "teardown error",
+                    "name": "current_url.py::test_get_current_url_nested_browsing_contexts"
+                }
+            ]
+        }
+    ]
+}
